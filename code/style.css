@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Varela+Round&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Tajawal&family=Varela+Round&display=swap');
+
+body{
+  margin:5px;
+  padding:10px;
+}
+.topheader{
+  background-color: #FFDC00;
+  display: flex;
+
+}
+.frontpage{
+  background-color: #E8DDF2;
+}
+.menu{
+  line-height: 0.5;
+  font-weight: bolder;
+  padding: 15px;
+}
+.menu:hover{
+  font-weight: bolder;
+  color: white;
+  transform: scale(1.5,1.5);
+  transition-duration: 1s;
+}
+.navigation ul{
+  list-style: none;
+  margin-left: 100px;
+
+}
+.navigation ul li{
+  float: left;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  width: 150px;
+  margin-top: 10px;
+  font-family: 'Varela Round', sans-serif; 
+
+
+}
+.navigation ul li:hover{
+  font-size: 28px;
+  font-weight: bolder;
+  color: black;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-decoration-style: double;
+}
+ .logo img {
+  width: 125px;
+  height: 60px;
+}
+.logo img:hover {
+  transform: scale(1.5);
+
+
+}
+.chhanels{
+  background: none;
+  border:none;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: inherit;
+}
+.chhanels:hover{
+  color: black;
+  font-size: 28px;
+  font-weight: bolder;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-decoration-style: double;
+}
+
+.top2{
+  display: flex;
+}
+.image{
+  width: 400px;
+  height: 700px;
+  /* float: right; */
+}
+.text {
+  font-size: 65px;
+  padding: 30px;
+  margin: 45px 10px 0px 20px;
+  font-family: 'Varela Round', sans-serif;
+
+}
+.text:hover{
+  background-color: white;
+  border-radius: 50px;
+  transform: scale(1.05,1.05);
+  transition-duration: 500ms;
+}
+.magnetic {
+  color: #FFC300;
+}
+.name{
+  color: #1499F8;
+}
+.name2{
+  font-size: 50px;
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+
+}
+.meetRanveer{
+  display: flex;
+  background-color: #FFCC00;
+  font-family: -apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+  font-weight: bold;
+}
+
+.about{
+  font-size: 27px;
+  margin-left: 30px;
+}
+.socialmedia1 a{
+  margin-left: 50px;
+}
+.readmystory{
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+
+}
+.readmystory:hover{
+  transform: scale(1.05,1.05);
+}
+.socialmedia1 a img:hover{
+  transform: rotatez(360deg);
+  transition-duration: 1s;
+}
+.bigbrain, .youthube, .podcast{
+  display: flex;
+}
+.bigbrainimage,.youthubeimage,.podcastimage{
+  margin-top: 50px;
+}
+.levelup, .mediaaward p{
+  font-size: 50px;
+  font-weight: bolder;
+  margin-top: 0px;
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Permanent Marker', cursive;
+
+}
+.secondpage{
+  background-color: #ffe32b;
+}
+.rambabu{
+  margin-left: 150px;
+}
+.bigbraintext, .youthubetext, .podcasttext{
+  margin-left: 125px;
+}
+.name1{
+  font-size: 35px;
+  font-weight: bolder;
+  font-family: 'Varela Round', sans-serif;
+}
+.textpart{
+  font-size: 15px;
+  font-weight: bold;
+font-family: 'Varela Round', sans-serif;
+}
+.rambabu button{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.rambabu button:hover{
+  color: #ffe32b;
+  transition-duration: 200ms;
+}
+.mediaaward{
+  background-color: #FFCC00;
+}
+.mediaawardflex{
+  display: flex;
+
+}
+.mediaimage img{
+  width: 250px;
+  margin-left: 40px;
+  cursor: pointer;
+
+}
+.mediaimage img:hover{
+  transform: scale(1.07,1.07);
+}
+.footer{
+  background-color: black;
+  padding-top: 75px;
+
+}
+
+.footerflex{
+  display: flex;
+      font-family: poppins,sans-serif;
+}
+.footerflex h1{
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+
+}
+.firstcolumn, .secondcolumn,.thirdcolumn{
+  width: 1000px;
+  padding:10px;
+  margin-left: 40px;
+}
+.ytchhanel ul , .ourbrands ul , .thirdcolumn ul{
+  list-style: none;
+  text-align: center;
+}
+.ytchhanel ul li , .ourbrands ul li  , .thirdcolumn ul li{
+  color: #FFCC00;
+  cursor: pointer;
+  padding: 10px;
+}
+.ytchhanel ul li:hover , .ourbrands ul li:hover , .thirdcolumn ul li:hover{
+  color: yellow;
+  text-decoration: underline;
+}
+.here{
+  color: #FFCC00;
+  cursor: pointer;
+}
+.here:hover{
+  color: yellow;
+  text-decoration: underline;
+}
+.mediapresence p , .podcst p {
+  color: grey;
+  text-align: center;
+}
+.thirdcolumn ul {
+  margin-top: 100px;
+}
+.thirdcolumn ul li{
+  margin-top: 40px;
+  font-size: 1.8em;
+  font-weight: bolder;
+}
+.footerdown{
+  background-color: #3d3c3b;
+
+}
+.footerdown p{
+  margin: 0px;
+  height: 75px;
+  text-align: center;
+  padding: 20px;
+  color: grey;
+  font-size: 20px;
+font-family: 'Varela Round', sans-serif;
+}
